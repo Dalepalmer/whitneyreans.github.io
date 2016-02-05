@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['hello', 'work', 'contact'],
+        anchors: ['personalspace', 'listings', 'about'],
         menu: '#nav-menu',
         // sectionSelector: '.page',
         // scrollOverflow: true,
@@ -9,9 +9,5 @@ $(document).ready(function() {
         scrollingSpeed: 555,
         navigation: true,
 
-    });
-
-    particlesJS.load('particles-js', 'assets/particles.json', function() {
-        console.log('callback - particles.js config loaded');
     });
 });
